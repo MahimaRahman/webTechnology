@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Information</title>
+</head>
+<body>
+    <p>* - Denotes Required Information</p> 
+    <pre>
+        > 1 Donation    > 2 Confirmation     > Thank You!
+    </pre>
+    <h2>Donor Information</h2><br>
+    <form method="get">
+        <strong>First name</strong><input type="text" name="firstname" required><br>
+        <strong>Last name</strong><input type="text" name="lastname" required><br>
+        <strong>Company</strong><input type="text" name="Company" ><br>
+        <strong>Address 1</strong><input type="text" name="Address1" required><br>
+        <strong>Address 2</strong><input type="text" name="Address2" ><br>
+        <strong>city</strong><input type="text" name="city" required><br>
+        <strong>State</strong>
+        <select name="State">
+            <option value="" disabled selected hidden>Select your State</option>
+            <option value="dhaka">dhaka</option>
+            <option value="rajshahi">rajshahi</option>
+            <option value="khulna">khulna</option>
+            <option value="chitagong">chitagong</option>
+        </select><br>
+        <strong>Zip code</strong><input type="number" name="code" required><br>
+        <strong>Country</strong>
+        <select name="Country">
+            <option value="" disabled selected hidden>Select your Country</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="US">US</option>
+                <option value="Maldip">Maldip</option>
+            </select><br>
+        <strong>Phone</strong><input type="text" name="Phone" ><br>
+        <strong>Fax</strong><input type="text" name="Fax" ><br>
+        <strong>Email</strong><input type="email" name="email"required><br>
+        <strong>Donation Amount</strong>
+            <input type="radio" name="Amount">None
+            <input type="radio" name="Amount">$50
+            <input type="radio" name="Amount">$75
+            <input type="radio" name="Amount">$100
+            <input type="radio" name="Amount">$250
+            <input type="radio" name="Amount">Other <br>
+            <small>(Check a button or type your amount)</small> <strong>Other Amount $</strong><input type="number" name="amount"> <br>
+        Recurring Donation: <input type="checkbox">I am interested in giving on a regular basis. <br>
+        <small>(Check if yes)</small> Monthly Credit Card $ <input type="number"> For <input type="number"> Month <br> <br>
+    
+        <h2>Honorarium and Memorial Donation Information</h2>
+            <strong>I would like to make this donation <br>
+
+            </strong> <input type="radio"name="type"> To Honorar  <br>
+            <input type="radio" name="type"> In Memory of <br>
+        
+        <strong>Name</strong><input type="text" name="name" ><br>
+        <strong>Acknowledge Donation to</strong><input type="text" name="lastname" required><br>
+        <strong>Address </strong><input type="text" name="Address" ><br>
+        <strong>city</strong><input type="text" name="city" required><br>
+        <strong>State</strong>
+        <select name="State">
+            <option value="" disabled selected hidden>Select your State</option>
+            <option value="dhaka">dhaka</option>
+            <option value="rajshahi">rajshahi</option>
+            <option value="khulna">khulna</option>
+            <option value="chitagong">chitagong</option>
+        </select><br>
+        <strong>Zip</strong> <input type="number" name="code"><br>
+
+        <h2>Additional Information</h2>
+        
+        Please enter your name, company or organization as you would like it to appear in our publications: <br>
+        Name <input type="text" name="name"> <br>
+
+        <input type="checkbox">I would like my gift to remain anonymous. <br>
+        <input type="checkbox">My employer offers a matching gift program. I will mail the matching gift form. <br>
+        <input type="checkbox">Please save the cost Of acknowledging this gift by not mailing a thank you letter. <br> <br>
+        
+        <strong>Comments</strong> <br>
+        <small>(Please type any questions or feedback here)</small> <textarea name="area" placeholder="Please give me your thoughts" rows="5">Feedback</textarea> <br>
+        
+        <strong>How may we contact you? </strong> <br>
+
+        <input type="checkbox">E-mail <br>
+        <input type="checkbox">Postal Mail <br>
+        <input type="checkbox">Telephone <br>
+        <input type="checkbox">Fax <br>
+
+        <small>I would like to receive newsletters and information about special events by :</small> <br>
+        <input type="checkbox">E-mail <br>
+        <input type="checkbox">Postal Mail <br>
+        <br>
+        <input type="checkbox">I would like information about volunteering with the<br>
+
+        <input type="reset" value="Reset">
+        <input type="continue" value="Continue">
+        <br> <br>
+        <small>Donate online With contidence. you are on a secure server.</small><br>
+        <small>If you have any problems or questions, please contact</small><br>
+
+        
+
+
+    </form>
+
+    
+
+</body>
+</html>
