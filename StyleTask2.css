@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(179, 184, 138, 0.921);
+}
+form{
+    margin-left: 20px;
+    
+}
+.form-group{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    accent-color: rgb(223, 48, 48);
+    
+}
+
+.form-group label{
+    flex-basis: 400px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    
+    
+}
+div{
+    text-align: left;
+}
+#submit{
+    text-align: center;
+   
+}
+h2{
+    color: red;
+}
+h3{display: inline;
+color: red;}
